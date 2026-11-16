@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Cédula Dominicana</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Validación de Cédula Dominicana</h1>
+
+        <p>Ingrese su número de cédula para comprobar si es válido.</p>
+
+        <input
+            type="text"
+            id="cedula"
+            placeholder="000-0000000-0"
+            maxlength="13"
+            inputmode="numeric"
+        >
+
+        <button onclick="validarCedula()">Validar Cédula</button>
+
+        <div id="resultado"></div>
+
+        <p class="nota">
+            Sistema de validación mediante el algoritmo Módulo 10.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

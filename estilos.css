@@ -1,0 +1,23 @@
+}
+
+#resultado {
+    margin-top: 22px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.valida {
+    color: green;
+}
+
+.invalida {
+    color: red;
+}
+
+.nota {
+    font-size: 13px;
+    margin-top: 25px;
+    color: #777;
+}
+
+
